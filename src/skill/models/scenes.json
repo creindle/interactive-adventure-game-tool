@@ -5,8 +5,8 @@
     "isHidden": false,
     "readPreviousOptions": false,
     "card": {
-      "title": "Welcome",
-      "text": "Welcome to my Alexa Skill. To learn how to use this skill, say \"Help\".",
+      "title": "Final Fantasy IX",
+      "text": "Hello. My name is Christie Reindle. I'm a developer and I love games. Enjoy my favorite scene in Final Fantasy IX with Alexa",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -14,15 +14,15 @@
       }
     },
     "voice": {
-      "intro": "Welcome to my Alexa Skill. To learn how to use this skill, say \"Help\".",
-      "prompt": "When you are ready, say \"Begin\"."
+      "intro": "Hello. My name is Christie Reindle. I'm a developer and I love games. Enjoy my favorite scene in Final Fantasy IX with Alexa.",
+      "prompt": ""
     },
     "options": [
       {
+        "sceneId": 1,
         "utterances": [
-          "begin"
-        ],
-        "sceneId": 1
+          "final fantasy"
+        ]
       }
     ]
   },
@@ -30,10 +30,11 @@
     "id": 1,
     "color": "default",
     "isHidden": false,
+    "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Welcome",
-      "text": "You enter a room with three doors each with a distinct number on it. Which door would you like to open?",
+      "title": "Alexandria Under Attack",
+      "text": "Kuja\n\"What an auspicious day for Alexandria. Garnet's ascension to the throne has brought hope and peace to this kingdom.\" \n\"The people are overjoyed; they believe a wonderful future is ahead of them.\" \n\"...But the celebration isn't over yet.\" \n\"It's time to really light things up!\" \n\"Your former master is here, Bahamut. Play a requiem for her and all of Alexandria!\"\n\nBahamut is summoned and viciously attacks Alexandria while Kuja smiles.",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -41,104 +42,27 @@
       }
     },
     "voice": {
-      "intro": "You enter a room with three doors, each with a distinct number on it. Which door would you like to open?",
+      "intro": "Kuja\n\"What an auspicious day for Alexandria. Garnet's ascension to the throne has brought hope and peace to this kingdom.\" \n\"The people are overjoyed; they believe a wonderful future is ahead of them.\" \n\"...But the celebration isn't over yet.\" \n\"It's time to really light things up!\" \n\"Your former master is here, Bahamut. Play a requiem for her and all of Alexandria!\"\n\nBahamut is summoned and viciously attacks Alexandria while Kuja smiles.",
       "prompt": ""
     },
     "options": [
       {
+        "sceneId": 2,
         "utterances": [
-          "open door 1"
-        ],
-        "sceneId": 2
-      },
-      {
-        "utterances": [
-          "open door 2"
-        ],
-        "sceneId": 3
-      },
-      {
-        "utterances": [
-          "open door 3"
-        ],
-        "sceneId": 4
-      },
-      {
-        "utterances": [
-          "open door 4"
-        ],
-        "sceneId": 5
+          "dagger"
+        ]
       }
     ]
   },
   {
     "id": 2,
-    "color": "red",
-    "isHidden": false,
-    "readPreviousOptions": false,
-    "card": {
-      "title": "You lose",
-      "text": "Better luck next time.",
-      "prompt": "If you would like to play again say, \"start again.\" Otherwise you can say \"exit skill.\"",
-      "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
-      }
-    },
-    "voice": {
-      "intro": "You lose. Better luck next time.",
-      "prompt": "If you would like to play again say, \"start again.\" Otherwise you can say \"exit skill.\""
-    },
-    "options": []
-  },
-  {
-    "id": 3,
-    "color": "yellow",
-    "isHidden": false,
-    "readPreviousOptions": true,
-    "card": {
-      "title": "Locked Door",
-      "text": "This door is locked.",
-      "prompt": "",
-      "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
-      }
-    },
-    "voice": {
-      "intro": "This door is locked. Maybe you should try one of the other doors.",
-      "prompt": ""
-    },
-    "options": []
-  },
-  {
-    "id": 4,
-    "color": "green",
-    "isHidden": false,
-    "readPreviousOptions": false,
-    "card": {
-      "title": "You win",
-      "text": "Congratulations, you've beat my skill!",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\"",
-      "image": {
-        "largeImageUrl": null,
-        "smallImageUrl": null
-      }
-    },
-    "voice": {
-      "intro": "Congratulations, you've beat my skill!",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\""
-    },
-    "options": []
-  },
-  {
-    "id": 5,
     "color": "default",
-    "isHidden": true,
+    "isHidden": false,
+    "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Secret Room",
-      "text": "Congratulations, you've found a secret room. You look around and see a single door with a star on it.",
+      "title": "In the castle",
+      "text": "\"Beatrix, please gather our soldiers.\"",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -146,14 +70,104 @@
       }
     },
     "voice": {
-      "intro": "Congratulations, you've found a secret room. You look around and see a single door with a star on it.",
+      "intro": "\"Beatrix, please gather our soldiers.\"",
       "prompt": ""
     },
     "options": [
       {
+        "sceneId": 4,
+        "utterances": [
+          "steiner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Beatrix & Steiner in Alexandria",
+      "text": "Steiner and Beatrix charge to Alexandria; a Mistodon chases children. Steiner and Beatrix  run on the scene.\n \n\"This is it, Beatrix.\" \n \n\"I will give my all for Alexandria!\" \n \n\"Well said! Let us march on to victory!\"",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Steiner and Beatrix charge to Alexandria; a Mistodon chases children. Steiner and Beatrix  run on the scene.\n \n\"This is it, Beatrix.\" \n \n\"I will give my all for Alexandria!\" \n \n\"Well said! Let us march on to victory!\"",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 7,
+        "utterances": [
+          "battle"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Pluto Knights Assemble!",
+      "text": "\"HURRY UP, YOU FOOLS!\" \n\"This is an emergency!\" \n\"Get your act together before the princess arrives!\" \n\"Line up!!!\"",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "\"HURRY UP, YOU FOOLS!\" \n\"This is an emergency!\" \n\"Get your act together before the princess arrives!\" \n\"Line up!!!\"",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 5,
+        "utterances": [
+          "dagger"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Protect the Townspeople",
+      "text": "Steiner and Beatrix salute Dagger and run off",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Steiner and Beatrix salute Dagger and run off",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 3,
+        "utterances": [
+          "town"
+        ]
+      },
+      {
         "sceneId": 6,
         "utterances": [
-          "open door 5"
+          "dagger looks at portrait"
         ]
       }
     ]
@@ -165,17 +179,150 @@
     "generateOptions": true,
     "readPreviousOptions": false,
     "card": {
-      "title": "Room",
-      "text": "You win!",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\"",
+      "title": "Portrait of her mother",
+      "text": "\"...Everyone's gone.\" \n\"I don't know what to do...\" \n[She looks up at a portrait of her mother] \n\"Mother...I need your help.\" \n\n[Blue light is charged to her; she falls unconscious]\n\nSay \"go back\"",
+      "prompt": "",
       "image": {
         "largeImageUrl": null,
         "smallImageUrl": null
       }
     },
     "voice": {
-      "intro": "You win!",
-      "prompt": "If you would like to play again say, \"Start again.\" Otherwise you can say \"Exit skill.\""
+      "intro": "\"...Everyone's gone.\" \n\"I don't know what to do...\" \n[She looks up at a portrait of her mother] \n\"Mother...I need your help.\" \n\n[Blue light is charged to her; she falls unconscious]\n\nSay \"go back\"",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 7,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Beatrix and Steiner",
+      "text": "\"Beware, Beatrix! The enemy is close!\" \n\nMistodon jumps from the top of the house to the two of them. Battle vs. Mistodon. They defeat it and head for the next screen. A Mistodon walks on\n\n\"You wish to fight us!? You despicable beast!\"\n\nAnother one walks on from the other side. Beatrix faces it\n\n\"For Her Highness!\" \n\n\"For the princess!\"",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "\"Beware, Beatrix! The enemy is close!\" \n\nMistodon jumps from the top of the house to the two of them. Battle vs. Mistodon. They defeat it and head for the next screen. A Mistodon walks on\n\n\"You wish to fight us!? You despicable beast!\"\n\nAnother one walks on from the other side. Beatrix faces it\n\n\"For Her Highness!\" \n\n\"For the princess!\"",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 8,
+        "utterances": [
+          "companionship"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Next Battle",
+      "text": "Battle vs. Mistodon. It dies \n\n\"Beatrix, are you alright?\" \n\n\"I'm fine. What about you?\" \n\"You're wounded!\" \n\n\"It's just a scratch.\"\n\nA mistodon walks on\n\n\"Persistent bastards!\" \n\nBattle vs. Mistodon",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Battle vs. Mistodon. It dies \n\n\"Beatrix, are you alright?\" \n\n\"I'm fine. What about you?\" \n\"You're wounded!\" \n\n\"It's just a scratch.\"\n\nA mistodon walks on\n\n\"Persistent bastards!\" \n\nBattle vs. Mistodon",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 9,
+        "utterances": [
+          "too many"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Protection",
+      "text": "\"This is futile! Let us return to the castle!\" \n\n\"No! I cannot face the princess until we destroy all these beasts. On my honor, I vow to protect the princess, the citizens of Alexandria, and...\" \n\"Beatrix! I...I shall protect you!\" \n\n\"Steiner...\" \nA mistodon walks on screen \n\n\"Watch out!\" \n\nBattle vs. Mistodon",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "\"This is futile! Let us return to the castle!\" \n\n\"No! I cannot face the princess until we destroy all these beasts. On my honor, I vow to protect the princess, the citizens of Alexandria, and...\" \n\"Beatrix! I...I shall protect you!\" \n\n\"Steiner...\" \nA mistodon walks on screen \n\n\"Watch out!\" \n\nBattle vs. Mistodon",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 10,
+        "utterances": [
+          "feelings"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Valediction",
+      "text": "\"...This might be it for us!\" \n\n\"I have no regrets!\" \n\nTwo mistodons come on screen\n\n\"Beatrix... There is something I must tell you!\" \n\n\"What is it?\" \n\n\"I...\" \n\n\"Save your valediction, Steiner. We'll live to see another day.\" \n\nBattle vs. Two Mistodons",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "\"...This might be it for us!\" \n\n\"I have no regrets!\" \n\nTwo mistodons come on screen\n\n\"Beatrix... There is something I must tell you!\" \n\n\"What is it?\" \n\n\"I...\" \n\n\"Save your valediction, Steiner. We'll live to see another day.\" \n\nBattle vs. Two Mistodons",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 11,
+        "utterances": [
+          "end"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Final Card",
+      "text": "Thank you so much for exploring my skill! I hope this encouraged you to either play the game or want to become a developer yourself! \n\nThank you Amazon for the Echo Dot, Final Fantasy Worlds Apart (site) for providing the script, and Square Enix for creating one of the best games ever!",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Thank you so much for exploring my skill! I hope this encouraged you to either play the game or want to become a developer yourself! \n\nThank you Amazon for the Echo Dot, Final Fantasy Worlds Apart (site) for providing the script, and Square Enix for creating one of the best games ever!",
+      "prompt": ""
     },
     "options": []
   }

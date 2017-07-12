@@ -25,22 +25,34 @@ module.exports = {
 	"AMAZON.CancelIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "exit skill" )
 	},
-	"BeginIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "begin" )
+	"FinalFantasyIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "final fantasy" )
 	},
-	"OpenDoorOneIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 1" )
+	"DaggerIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "dagger" )
 	},
-	"OpenDoorTwoIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 2" )
+	"SteinerIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "steiner" )
 	},
-	"OpenDoorThreeIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 3" )
+	"BattleIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "battle" )
 	},
-	"OpenDoorFourIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 4" )
+	"TownIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "town" )
 	},
-	"OpenDoorFiveIntent": function ( intent, session, request, response ) {
-		processUtterance( intent, session, request, response, "open door 5" )
+	"DaggerLooksAtPortraitIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "dagger looks at portrait" )
+	},
+	"CompanionshipIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "companionship" )
+	},
+	"TooManyIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "too many" )
+	},
+	"FeelingsIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "feelings" )
+	},
+	"EndIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "end" )
 	},
 }

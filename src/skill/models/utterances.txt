@@ -15,9 +15,14 @@ GoBackIntent go back
 AMAZON.HelpIntent help
 AMAZON.StopIntent exit skill
 AMAZON.CancelIntent exit skill
-BeginIntent begin
-OpenDoorOneIntent open door one
-OpenDoorTwoIntent open door two
-OpenDoorThreeIntent open door three
-OpenDoorFourIntent open door four
-OpenDoorFiveIntent open door five
+FinalFantasyIntent final fantasy
+DaggerIntent dagger
+SteinerIntent steiner
+BattleIntent battle
+DaggerIntent dagger
+TownIntent town
+DaggerLooksAtPortraitIntent dagger looks at portrait
+CompanionshipIntent companionship
+TooManyIntent too many
+FeelingsIntent feelings
+EndIntent end

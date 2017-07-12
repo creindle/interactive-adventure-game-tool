@@ -28,22 +28,34 @@
       "intent": "AMAZON.CancelIntent"
     },
     {
-      "intent": "BeginIntent"
+      "intent": "FinalFantasyIntent"
     },
     {
-      "intent": "OpenDoorOneIntent"
+      "intent": "DaggerIntent"
     },
     {
-      "intent": "OpenDoorTwoIntent"
+      "intent": "SteinerIntent"
     },
     {
-      "intent": "OpenDoorThreeIntent"
+      "intent": "BattleIntent"
     },
     {
-      "intent": "OpenDoorFourIntent"
+      "intent": "TownIntent"
     },
     {
-      "intent": "OpenDoorFiveIntent"
+      "intent": "DaggerLooksAtPortraitIntent"
+    },
+    {
+      "intent": "CompanionshipIntent"
+    },
+    {
+      "intent": "TooManyIntent"
+    },
+    {
+      "intent": "FeelingsIntent"
+    },
+    {
+      "intent": "EndIntent"
     }
   ]
 }
